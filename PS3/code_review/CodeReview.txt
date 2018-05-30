@@ -1,0 +1,22 @@
+The author really did a great job and the code is very clear to read.
+
+Things I found nice in the code:
+
+1. The code is very clean and well organized.
+
+2. For "StopwatchImplementation":
+  2.1. Used "final" keyword for id and lock.
+  2.2. Used "temporaryLap" to decide whether the lap time should continue.
+
+3. For "StopwatchFactory":
+  3.1. Used "ConcurrentHashMap". 
+  3.2. There is only one factory, so used "static" for all data structures.
+  3.3. Check for nulls.
+
+
+Things I think could be improved:
+
+1. In each method which involves data to be locked, the author basically locks the whole thing in the method,
+   some instructions may be unnecessary. 
+
+2. May want to override hashCode() and equals() methods for Stopwatch.

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "lei",
+    "phoneNumber": "6462261908",
+    "emailAddress": "lg2681@nyu.edu",
+    "postalAddress": "07310",
+    "note": "me",
+    "id": 0
+  },
+  {
+    "name": "man",
+    "phoneNumber": "6462261000",
+    "emailAddress": "xxxwan@nyu.edu",
+    "postalAddress": "06310",
+    "note": "he",
+    "id": 1
+  },
+  {
+    "name": "woman",
+    "phoneNumber": "6462261001",
+    "emailAddress": "wanxxx@nyu.edu",
+    "postalAddress": "05310",
+    "note": "she",
+    "id": 2
+  }
+]

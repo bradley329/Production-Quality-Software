@@ -1,0 +1,25 @@
+Please enter your code review in this file as plain text
+and make sure to include it when you commit your project.
+
+Things I found nice in the code:
+
+1. The author thinks of the details, for example, he/she build extra classes for address, name, phone number and email. 
+
+2. For Contact, ContactName, ContactAddress, and ContactPhoneEmail:
+  2.1. Used builder pattern and each of them has override the "toString()" method. 
+  2.2. Only have getters and no setters which protect the info.
+  
+3. Built a Validator to check the validity of phone and email using regex.
+
+
+Things I think could be improved:
+
+1. The author allows null for strings, I think it would be safer if we check whether they are null first, for example, we usually do not allow null for name. 
+
+2. In my Eclipse, it seems the indentation is tab, which is not desirable.
+
+3. Did not override hashCode() and equals() methods for Contact.
+
+4. When read from and write to a file, using {try with resources} is preferable.
+
+5. AddressBook did not explicitly override toString(), buildStringContact() is actually toString().
